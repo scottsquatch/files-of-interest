@@ -1,0 +1,7 @@
+-sudoers
+-sudoers.d/
+-cni/
+-cups/ssl/
+-NetworkManager/system-connections/
+-default/useradd
+-.etckeeper

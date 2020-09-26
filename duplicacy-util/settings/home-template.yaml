@@ -1,0 +1,31 @@
+repository: {{REPO-PATH}}
+
+storage:
+  - name: nas
+    threads: 10 # lower this for less powerfull pcs
+    vss: true
+    quote: "-t duplicacy-util"
+
+copy:
+  - from: nas
+    to: b2
+    threads: 10
+    quote: '-upload-limit-rate 10000' # Limit uploads to 10 MB/s
+
+prune:
+  - storage: nas
+    keep: "0:180 7:30 1:7"
+    all: false
+    quote: "-id {{SNAPSHOT-ID}}"
+  - storage: b2
+    keep: "0:180 7:30 1:7"
+    all: false
+    quote: "-id {{SNAPSHOT-ID}}"
+
+check:
+  - storage: nas
+    all: false
+    quote: "-id {{SNAPSHOT-ID}}"
+  - storage: b2
+    all: false
+    quote: "-id {{SNAPSHOT-ID}}"

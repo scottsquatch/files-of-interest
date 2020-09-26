@@ -1,0 +1,12 @@
+-Downloads/
+-.local/share/Steam/
+-.mozilla/
+-.cache/
+-.gvfs/
+-.local/share/[Tt]rash/
+-*~
+-.var/app/com.getpostman.Postman/cache/
+-.config/VSCodium/CachedData/
+-.config/VSCodium/Cache/
+-.local/share/backintime/
+-.steam/steam.pipe

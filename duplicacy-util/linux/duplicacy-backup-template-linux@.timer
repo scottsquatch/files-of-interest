@@ -1,0 +1,11 @@
+[Unit]
+Description=Backup with duplicacy daily %I
+After=network-online.target
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+OnBootSec=5min
+
+[Install]
+WantedBy=timers.target

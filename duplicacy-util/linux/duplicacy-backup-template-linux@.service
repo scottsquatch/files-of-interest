@@ -1,0 +1,9 @@
+[Unit]
+Description=Duplicacy Backup using Duplicacy-Util with config %I
+After=network-online.target
+
+[Service]
+Type=oneshot
+# Workaround for laptops to prevent backup failures when waking up from sleep
+ExecStartPre=/bin/sleep 30 
+ExecStart=duplicacy-util -f %i -a

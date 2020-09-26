@@ -1,0 +1,13 @@
+notifications:
+  onStart: []
+  onSkip: ['email']
+  onSuccess: ['email']
+  onFailure: ['email']
+
+email:
+  fromAddress: "{{PC-NAME}} <{{FROM-EMAIL}}>"
+  toAddress: "{{TO NAME}}  <{{TO-EMAIL}}>"
+  serverHostname: smtp.gmail.com
+  serverPort: 465
+  authUsername: {{EMAIL-LOGIN}}
+  authPassword: {{EMAIL-PASSWORD}}
