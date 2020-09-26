@@ -71,14 +71,18 @@ e:(?i)\.(tmp|temp)$
 e:(?i)\.cache$
 e:(?i)(^|/)temp/
 e:(?i)(^|/)tmp/
-e:(?i)(^|/)cache/
+e:(?i)(^|/)[cC]ache/
+e:(?i)(^|/)[cC]ache2/
 e:(?i)/Package Cache/
+e:(?i)/LocalCache/
 
 # Users/a/AppData/Local/Google/Chrome/User Data/Default/Service Worker/CacheStorage/fodisjfladsf87-a9ds8fa87d6f8as-d7f6978690-7df6a78fs6a
 e:(?i)/Service Worker/CacheStorage/
 
 # Users/cpasat/AppData/Local/Mozilla/Firefox/Profiles/6tdz9jz4.default/OfflineCache/5/D/
 /OfflineCache/
+/jumpListCache/
+/startupCache/
 
 # Users/cpasat/AppData/Roaming/Apple Computer/Logs/CrashReporter/MobileDevice/
 e:(?i)/Logs/CrashReporter/
