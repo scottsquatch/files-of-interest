@@ -1,3 +1,5 @@
+# Filters for home directory. 
+# This is not meant to be a complete file but more of an update as-you-go deal.
 -Downloads/
 -.local/share/Steam/
 -.mozilla/
