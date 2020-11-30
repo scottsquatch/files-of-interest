@@ -249,6 +249,10 @@ e:(?i)^SendTo
 e:(?i)^Start Menu
 e:(?i)^Templates
 e:(?i)^Tracing/
+e:(?i)^scoop/apps/
+e:(?i)^scoop/buckets/
+e:(?i)^scoop/cache/
+e:(?i)^scoop/shims/
 
 # ============================ unneeded folders in Users profiles: runtimes, dev, others
 e:(?i)^Users/[^/]+/\.?anaconda/
