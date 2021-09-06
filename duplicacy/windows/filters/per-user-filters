@@ -386,7 +386,7 @@ e:(?i)/AppData/Local/SourceTree/
 e:(?i)/AppData/Local/SquirrelTemp/
 
 # ========================= Case where backup is in user folder
-:(?i)^AppData/[^/]+/Packages/
+e:(?i)^AppData/[^/]+/Packages/
 
 e:(?i)^AppData/Local/AMD/
 e:(?i)^AppData/Local/atom/
