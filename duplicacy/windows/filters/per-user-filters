@@ -188,7 +188,6 @@ e:(?i)^Logs/
 e:(?i)^Ming[^/]*/
 e:(?i)^MSI/
 e:(?i)^NVIDIA/
-e:(?i)^PerfLogs/
 e:(?i)^Python[^/]*/
 e:(?i)^Sun/
 
@@ -321,6 +320,7 @@ e:(?i)/AppData/[^/]+/Comms/
 e:(?i)/AppData/[^/]+/ConnectedDevicesPlatform/
 e:(?i)/AppData/[^/]+/CrashDumps/
 e:(?i)/AppData/[^/]+/CrashPlan/
+e:(?i)/AppData/[^/]+/Code Cache/
 e:(?i)/AppData/[^/]+/DBG/
 e:(?i)/AppData/[^/]+/Diagnostics/
 e:(?i)/AppData/[^/]+/Downloaded Installations/
@@ -350,10 +350,12 @@ e:(?i)^AppData/[^/]+/Comms/
 e:(?i)^AppData/[^/]+/ConnectedDevicesPlatform/
 e:(?i)^AppData/[^/]+/CrashDumps/
 e:(?i)^AppData/[^/]+/CrashPlan/
+e:(?i)^AppData/Local/Vivaldi/User Data/Default/Code Cache/
 e:(?i)^AppData/[^/]+/DBG/
 e:(?i)^AppData/[^/]+/Diagnostics/
 e:(?i)^AppData/[^/]+/Downloaded Installations/
 e:(?i)^AppData/[^/]+/Dropbox/
+e:(?i)^AppData/Local/D3DSCache/
 e:(?i)^AppData/[^/]+/Duplicati/
 e:(?i)^AppData/[^/]+/ElevatedDiagnostics/
 e:(?i)^AppData/[^/]+/JetBrains/
@@ -510,7 +512,6 @@ e:(?i)^AppData/[^/]+/Google/
 
 e:(?i)\.!ut$
 e:(?i)\.bup$
-e:(?i)\.cache$
 e:(?i)\.crdownload$
 e:(?i)\.dmp$
 e:(?i)\.dov$
